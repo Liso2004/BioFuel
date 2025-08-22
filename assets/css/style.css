@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Product Card Styles */
+.product-card {
+    margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    margin-top: auto; /* Pushes footer to bottom when content is short */
+}
+
+
+footer a {
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white !important;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+.social-links a:hover {
+  transform: translateY(-5px);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .card-img-top {
+        height: 150px;
+    }
+}

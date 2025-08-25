@@ -34,7 +34,13 @@
             <!-- Contact Info -->
             <div class="col-md-4 mb-4">
                 <h5 class="fw-bold border-bottom border-secondary pb-1 mb-3">Contact Us</h5>
+                <p class="mb-1">ADDRESS:
+314 Imam Haron Road,
+Lansdowne, Cape Town,
+South Africa, 7780</p>
+<br>
                 <p class="mb-1">Email: biofuel.capetown@gmail.com</p>
+                <br>
                 <p class="mb-2">Phone: +27 23-789-4567</p>
                 <div class="d-flex">
                     <a href="https://www.tiktok.com/@biofuel_official" class="social-icon me-3"  target="_blank"><i class="fab fa-tiktok fa-lg"></i></a>

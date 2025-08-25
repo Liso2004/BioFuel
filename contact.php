@@ -76,7 +76,10 @@ if (isset($_SESSION['success_message'])) {
                 <p>+27 23-789-4567</p>
                 
                 <h5>Address</h5>
-                <p>123 Wellness Way<br>Cape Town, 7760</p>
+                <p>
+314 Imam Haron Road,
+Lansdowne, Cape Town,
+South Africa, 7780<br></p>
             </div>
         </div>
         
